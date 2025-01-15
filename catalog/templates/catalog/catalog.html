@@ -1,0 +1,48 @@
+{% extends "catalog/base.html" %}
+{% block content %}
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-2">{{title}}</h1>
+</div>
+
+
+<div class="container">
+    <div class="row mx-auto p-4">
+        <div class="col-6 mb-5">
+            <div class="card">
+                <img height="500" src="/media/fruits.jpg" class="card-img-top" alt="изображение">
+                <div class="card-body">
+                    <h5 class="card-title">Фрукты</h5>
+                    <p class="card-text">Сладкие</p>
+                </div>
+            </div>
+            <b></b>
+        </div>
+        <div class="col-6 mb-5">
+            <div class="card">
+                <img height="500" src="/media/vegetables.jpg" class="card-img-top" alt="изображение">
+                <div class="card-body">
+                    <h5 class="card-title">Овощи</h5>
+                    <p class="card-text">Полезные</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 mb-5">
+            <div class="card">
+                <img height="500" src="/media/sweets.jpg" class="card-img-top" alt="изображение">
+                <div class="card-body">
+                    <h5 class="card-title">Сладости</h5>
+                    <p class="card-text">Сладкие</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 mb-5">
+            <div class="card">
+                <img height="500" src="/media/meat.jpg" class="card-img-top" alt="изображение">
+                <div class="card-body">
+                    <h5 class="card-title">Мясо</h5>
+                    <p class="card-text">Свинина, курица, говядина</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
